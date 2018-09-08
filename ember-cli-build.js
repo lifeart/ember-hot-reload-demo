@@ -8,6 +8,12 @@ module.exports = function(defaults) {
       plugins: [
         'transform-object-rest-spread'
       ]
+    },
+
+    'ember-bootstrap': {
+      'bootstrapVersion': 4,
+      'importBootstrapFont': false,
+      'importBootstrapCSS': true
     }
   });
 
